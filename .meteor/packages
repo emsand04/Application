@@ -26,7 +26,6 @@ accounts-password       # Password support for accounts
 accounts-facebook       # Login service for Facebook accounts
 session                 # Session variable
 check                   # Check whether a value matches a pattern
-appcache                # Enable the application cache in the browser
 spacebars               # Handlebars-like template language for Meteor
 
 kadira:flow-router      # Carefully Designed Client Side Router for Meteor
@@ -36,3 +35,4 @@ twbs:bootstrap          # The most popular front-end framework for developing re
 meteortoys:allthings    # Insanely Handy Development Tools
 
 useraccounts:flow-routing # UserAccounts package providing routes configuration capability via kadira:flow-router.
+materialize:materialize # A modern responsive front-end framework based on Material Design

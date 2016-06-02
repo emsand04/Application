@@ -1,8 +1,22 @@
+<!-- Detta är huvudlayouten. Den ser olika ut beroende på vilken route användaren har tagit. -->
 
-<head>
-    <meta charset="UTF-8">
+<template name="mainLayout">
 
-</head>
-<body>
+    <div class="website">
 
-</body>
+    <header id="headerContent">
+        {{>Template.dynamic template=header}}
+    </header>
+
+
+    <main id="mainContent">
+        {{>Template.dynamin tempate=main}}
+    </main>
+
+    <footer id="footerContent">
+        {{Template.dynamic template=footer}}
+    </footer>
+
+    </div>
+
+</template>

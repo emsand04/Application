@@ -5,7 +5,6 @@ accounts-password@1.1.8
 accounts-ui@1.1.9
 accounts-ui-unstyled@1.1.12
 allow-deny@1.0.4
-appcache@1.0.10
 autopublish@1.0.7
 autoupdate@1.2.9
 babel-compiler@6.6.4
@@ -50,6 +49,7 @@ less@2.6.0
 livedata@1.0.18
 localstorage@1.0.9
 logging@1.0.12
+materialize:materialize@0.97.5
 meteor@1.1.14
 meteor-base@1.0.4
 meteortoys:allthings@3.0.0

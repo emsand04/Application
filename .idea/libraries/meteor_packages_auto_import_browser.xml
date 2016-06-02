@@ -160,8 +160,10 @@
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/softwarerero_accounts-t9n/1.3.4/web.browser/t9n/el.coffee" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/softwarerero_accounts-t9n/1.3.4/web.browser/t9n/en.coffee" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/softwarerero_accounts-t9n/1.3.4/web.browser/t9n/ru.coffee" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/materialize_materialize/0.97.5/web.browser/dist/js/materialize.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/softwarerero_accounts-t9n/1.3.4/web.browser/t9n/ro.coffee" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/softwarerero_accounts-t9n/1.3.4/web.browser/t9n/fa.coffee" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/materialize_materialize/0.97.5/web.browser/dist/css/materialize.css" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/softwarerero_accounts-t9n/1.3.4/web.browser/t9n/zh_CN.coffee" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/softwarerero_accounts-t9n/1.3.4/web.browser/t9n/cs.coffee" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/softwarerero_accounts-t9n/1.3.4/web.browser/t9n/pl.coffee" />
@@ -335,7 +337,6 @@
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/webapp/1.2.8/web.browser/webapp_client.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/webapp/1.2.8/web.browser/webapp_server.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/useraccounts_flow-routing/1.14.2/web.browser/lib/core.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/appcache/1.0.10/web.browser/appcache-client.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/useraccounts_flow-routing/1.14.2/web.browser/lib/client/client.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/useraccounts_flow-routing/1.14.2/web.browser/lib/client/templates_helpers/at_input.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/modules/0.6.1/web.browser/install-packages.js" />
@@ -520,8 +521,10 @@
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/softwarerero_accounts-t9n/1.3.4/web.browser/t9n/el.coffee" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/softwarerero_accounts-t9n/1.3.4/web.browser/t9n/en.coffee" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/softwarerero_accounts-t9n/1.3.4/web.browser/t9n/ru.coffee" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/materialize_materialize/0.97.5/web.browser/dist/js/materialize.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/softwarerero_accounts-t9n/1.3.4/web.browser/t9n/ro.coffee" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/softwarerero_accounts-t9n/1.3.4/web.browser/t9n/fa.coffee" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/materialize_materialize/0.97.5/web.browser/dist/css/materialize.css" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/softwarerero_accounts-t9n/1.3.4/web.browser/t9n/zh_CN.coffee" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/softwarerero_accounts-t9n/1.3.4/web.browser/t9n/cs.coffee" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/softwarerero_accounts-t9n/1.3.4/web.browser/t9n/pl.coffee" />
@@ -695,7 +698,6 @@
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/webapp/1.2.8/web.browser/webapp_client.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/webapp/1.2.8/web.browser/webapp_server.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/useraccounts_flow-routing/1.14.2/web.browser/lib/core.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/appcache/1.0.10/web.browser/appcache-client.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/useraccounts_flow-routing/1.14.2/web.browser/lib/client/client.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/useraccounts_flow-routing/1.14.2/web.browser/lib/client/templates_helpers/at_input.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/modules/0.6.1/web.browser/install-packages.js" />
