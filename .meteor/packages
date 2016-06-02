@@ -30,6 +30,9 @@ appcache                # Enable the application cache in the browser
 spacebars               # Handlebars-like template language for Meteor
 
 kadira:flow-router      # Carefully Designed Client Side Router for Meteor
-kadira:blaze-layout     # Layout Manager for Blaze (works well with
-                          FlowRouter)
+kadira:blaze-layout     # Layout Manager for Blaze (works well with FlowRouter)
 
+twbs:bootstrap          # The most popular front-end framework for developing responsive, mobile first projects on the web.
+meteortoys:allthings    # Insanely Handy Development Tools
+
+useraccounts:flow-routing # UserAccounts package providing routes configuration capability via kadira:flow-router.
