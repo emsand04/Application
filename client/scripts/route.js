@@ -35,8 +35,7 @@ FlowRouter.route("/user-site", {
 });
 
 FlowRouter.notFound = {
-
- 
+    
     action: function () {
         BlazeLayout.render("mainLayout", {header: "header", main: "not-found", footer: "footer"});
     }

@@ -1,6 +1,10 @@
 /* CSS declarations go here */
 
 .website {
-    background-color: black;
-    color: white;
+   /* background-color: black;
+    color: white;*/
+}
+
+html {
+   background-color: slategrey;
 }
