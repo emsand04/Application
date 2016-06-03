@@ -1,10 +1,39 @@
 /* CSS declarations go here */
 
+@font-face {
+   font-family: "league", sans-serif;
+   src: url("../fonts/league/leaguegothic-regular.eot") format("eot"),
+        url("../fonts/league/leaguegothic-regular.svg") format("svg"),
+        url("../fonts/league/leaguegothic-regular.ttf") format("ttf"),
+        url("../fonts/league/leaguegothic-regular.woff") format("woff")
+
+}
+
+@font-face {
+   font-family: "rosario",sans-serif;
+   src: url("../fonts/rosario/Rosario-Regular.eot") format("eot"),
+        url("../fonts/rosario/Rosario-Regular.otf") format("otf"),
+        url("../fonts/rosario/Rosario-Regular.ttf") format("ttf"),
+        url("../fonts/rosario/Rosario-Regular.woff") format("woff"),
+        url("../fonts/rosario/Rosario-Regular.woff2") format("woff2")
+}
+
 .website {
    /* background-color: black;
     color: white;*/
+   font-family: "rosario", Roboto, sans-serif;
 }
 
 html {
    background-color: slategrey;
+   font-family: "rosario", Roboto, sans-serif;
+}
+
+body {
+   /*padding-top: 50px;*/
+   font-family: "rosario", Roboto, sans-serif;
+}
+
+head {
+   font-family: "rosario", Roboto, sans-serif;
 }
