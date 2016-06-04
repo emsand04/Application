@@ -36,3 +36,5 @@ meteortoys:allthings    # Insanely Handy Development Tools
 
 useraccounts:flow-routing # UserAccounts package providing routes configuration capability via kadira:flow-router.
 materialize:materialize # A modern responsive front-end framework based on Material Design
+aldeed:collection2
+aldeed:autoform

@@ -41,6 +41,13 @@ head {
    font-family: "league", "Times New Roman", sans-serif;
 }
 
+.pull-left {
+    float: left !important;
+}
+.pull-right {
+    float: right !important;
+}
+
 #headline-start, #paragraph-one-start {
     color: white;
 }
@@ -51,4 +58,22 @@ head {
 
 #paragraph-one-start {
     font-family: "rosario", sans-serif;
+}
+
+#media-obj {
+    width: 64px;
+    height: 64px;
+}
+
+#social-media-img {
+    width: 24px;
+    height: 24px;
+}
+
+#post-container {
+    background-color: rgb(255, 245, 248);
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 2%;
+    height: 60%;
 }
