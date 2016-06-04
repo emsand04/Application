@@ -1,7 +1,7 @@
 
 <template name="header">
 
-    <nav class="navbar navbar-default navbar-fixed">
+    <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
 
             <div class="navbar-header">
@@ -11,27 +11,38 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand">Meny</a>
+
             </div>
 
             <div class="collapse navbar-collapse" id="collapsed-content">
-                <ul class="nav navbar-nav">
-                    {{#each menuItems}}
-                        <li>
-                            <a href="#">
-                                {{name}}
-                            </a>
-                        </li>
-                    {{/each}}
-                </ul>
+                <div id="header-container" class="container">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <ul class="nav navbar-nav">
+                                {{#each menuItems}}
+                                    <li>
+                                    <a id={{id}} href="">
+                                        {{name}}
+                                    </a>
+                                    </li>
+                                {{/each}}
+                            </ul>
+                        </div>
 
-            {{> search}}
+                        <div class="col-md-8">
+                            {{> search}}
+                        </div>
 
-                <ul class="nav navbar-nav navbar-right">
-                    <button id="login-btn" type="button" class="btn btn-default navbar-btn">Logga in</button>
-                </ul>
+                        <div class="col-md-1">
+                            <ul class="nav navbar-nav navbar-right">
+                                <button id="login-btn" type="button" class="btn btn-sm navbar-btn">Logga in</button>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+
     </nav>
 
 </template>

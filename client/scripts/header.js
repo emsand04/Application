@@ -10,3 +10,13 @@ Template.header.helpers ({
    }
 
 });
+
+Template.header.events({
+    "click #home-item": function(){
+        FlowRouter.go("start");
+    },
+    
+    "click #content-item": function(){
+        FlowRouter.go("home");
+    }
+});

@@ -2,38 +2,53 @@
 
 @font-face {
    font-family: "league", sans-serif;
-   src: url("../fonts/league/leaguegothic-regular.eot") format("eot"),
-        url("../fonts/league/leaguegothic-regular.svg") format("svg"),
-        url("../fonts/league/leaguegothic-regular.ttf") format("ttf"),
+   src: url("../fonts/league/leaguegothic-regular.eot");
+   src: url("../fonts/league/leaguegothic-regular.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/league/leaguegothic-regular.svg#leaguegothic-regular") format("svg"),
+        url("../fonts/league/leaguegothic-regular.ttf") format("truetype"),
         url("../fonts/league/leaguegothic-regular.woff") format("woff")
 
 }
 
 @font-face {
    font-family: "rosario",sans-serif;
-   src: url("../fonts/rosario/Rosario-Regular.eot") format("eot"),
-        url("../fonts/rosario/Rosario-Regular.otf") format("otf"),
-        url("../fonts/rosario/Rosario-Regular.ttf") format("ttf"),
-        url("../fonts/rosario/Rosario-Regular.woff") format("woff"),
-        url("../fonts/rosario/Rosario-Regular.woff2") format("woff2")
+    src: url("../fonts/rosario/Rosario-Regular.eot");
+    src: url("../fonts/rosario/Rosario-Regular.eot?#iefix") format("embedded-opentype"),
+         url("../fonts/rosario/Rosario-Regular.otf") format("otf"),
+         url("../fonts/rosario/Rosario-Regular.ttf") format("truetype"),
+         url("../fonts/rosario/Rosario-Regular.woff") format("woff"),
+         url("../fonts/rosario/Rosario-Regular.woff2") format("woff2")
 }
 
 .website {
    /* background-color: black;
     color: white;*/
-   font-family: "rosario", Roboto, sans-serif;
+   font-family: "league", "Times New Roman", sans-serif;
 }
 
 html {
    background-color: slategrey;
-   font-family: "rosario", Roboto, sans-serif;
+   font-family: "league", "Times New Roman", sans-serif;
 }
 
 body {
-   /*padding-top: 50px;*/
-   font-family: "rosario", Roboto, sans-serif;
+    padding-top: 70px;
+   font-family: "league", "Times New Roman", sans-serif;
+    background-color: slategrey;
 }
 
 head {
-   font-family: "rosario", Roboto, sans-serif;
+   font-family: "league", "Times New Roman", sans-serif;
+}
+
+#headline-start, #paragraph-one-start {
+    color: white;
+}
+
+#headline-start {
+    font-family: "league", sans-serif;
+}
+
+#paragraph-one-start {
+    font-family: "rosario", sans-serif;
 }
