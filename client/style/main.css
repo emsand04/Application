@@ -60,9 +60,42 @@ head {
     font-family: "rosario", sans-serif;
 }
 
-#media-obj {
-    width: 64px;
-    height: 64px;
+.blog-post ul.card-action-buttons {
+     margin: -26px 10px 0 0;
+}
+
+.card-action-buttons li {
+    float: right;
+    padding: 2px;
+}
+
+.blog-post {
+    width: 240px;
+}
+
+.social-icons li {
+    float: left;
+}
+
+#post-rev-content {
+    padding-top: 20px;
+}
+
+#card-img-cont {
+    width: 100%;
+    border-bottom: 2px solid teal;
+}
+
+#post-card {
+    border: 2px solid teal;
+}
+
+#card-img {
+    margin-left: 10px;
+}
+
+#add-txt {
+    padding-top: 30px;
 }
 
 #social-media-img {
@@ -70,10 +103,25 @@ head {
     height: 24px;
 }
 
-#post-container {
-    background-color: rgb(255, 245, 248);
-    padding-left: 4%;
-    padding-right: 4%;
-    padding-top: 2%;
-    height: 60%;
+#profile-pic {
+    width: 34px;
+    height: 34px;
+}
+
+#icons-container {
+    padding-top: 10px;
+    position: fixed;
+    bottom: 10px;
+    left: 0;
+}
+
+#add-comment-btn {
+    position: fixed;
+    right: 20px;
+    bottom: 10px;
+}
+
+#add-post-btn {
+    bottom: 15px;
+    right: 15px;
 }
