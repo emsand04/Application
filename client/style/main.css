@@ -48,6 +48,18 @@ head {
     float: right !important;
 }
 
+.material-icons.md-18 {
+    font-size: 18px;
+}
+
+.material-icons.md-16 {
+    font-size: 16px;
+}
+
+.material-icons.md-light {
+    color: rgba(255, 255, 255, 1);
+}
+
 #headline-start, #paragraph-one-start {
     color: white;
 }
@@ -110,18 +122,40 @@ head {
 
 #icons-container {
     padding-top: 10px;
-    position: fixed;
+    position: absolute;
     bottom: 10px;
     left: 0;
+    z-index: 1;
 }
 
 #add-comment-btn {
-    position: fixed;
+    position: absolute;
     right: 20px;
     bottom: 10px;
+    z-index: 1;
 }
 
 #add-post-btn {
     bottom: 15px;
     right: 15px;
 }
+
+.collapsible-header.active i {
+    -ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+}
+
+#comment-text, #comment-title {
+    font-size: 10px;
+}
+#remove-comment-btn {
+    position: absolute;
+    top: 3px;
+    right: 3px;
+}
+
+#show-comments-btn {
+    width: 100%;
+}
+

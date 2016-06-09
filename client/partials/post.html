@@ -31,23 +31,36 @@
             </span>
 
             <p id="post-rev-content">Mer info om inlägget.</p>
-
+            {{> showComments}}
             {{> socialIcons}}
-
             {{> addCommentButton}}
         </div>
+
     </div>
 
 </div>
 
 </template>
 
+<template name="showComments">
+   <!-- <button id="show-comments-btn" class="waves-effect waves-light btn" data-toggle="collapse" href="#content-comments" aria-expanded="false" aria-controls="content-comments">
+        <i id="icon-col" class="material-icons">expand_more</i>Visa kommentarer</button>
+    <div class="collapse" id="content-comments">
+        {{> postedCommentForm}}
+    </div> -->
+
+
+
+</template>
+
 <template name="addCommentButton">
+
     <a id="add-comment-btn" class="btn-small btn-floating waves-effect waves-light" rel="popover">
-        <i class="material-icons">
-            add
+        <i class="material-icons md-18">
+            comment
         </i>
     </a>
+
 </template>
 
 <template name="actionButtons">

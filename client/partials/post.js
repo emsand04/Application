@@ -25,6 +25,12 @@ Template.addCommentButton.onRendered(function(){
     );
 });
 
+Template.post.onRendered(function(){
+    $('.collapse').collapse({
+  //  accordion : false
+});
+});
+
 Template.post.events({
    'click: #close-reveal': function(){
        $('#add-comment-btn').popover('hide');
