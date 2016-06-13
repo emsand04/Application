@@ -2,10 +2,24 @@
 <template name="addButton">
 
     <div class="fixed-action-btn">
-    <a id="add-post-btn" class="btn-floating btn-large waves-effect waves-light teal" href="#" >
-        <i class="large material-icons">
+    <a id="add-post-btn" class="btn-floating btn-large waves-effect waves-light teal modal-trigger" href="#new-post" >
+        <i class="md-34 material-icons">
             add
         </i>
     </a>
     </div>
+
+    <div id="new-post" class="modal">
+        <div id="new-post-content" class="modal-content">
+            <h4 id="header-modal">Ny kommentar</h4>
+            <div id="body-modal" class="container center-align">
+                {{> addPostForm}}
+            </div>
+        </div>
+        <div id="new-post-footer" class="modal-footer">
+            <a id="publish-btn" href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Publicera</a>
+            <a id="abort-btn" href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Avbryt</a>
+        </div>
+    </div>
+
 </template>

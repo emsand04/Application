@@ -26,7 +26,7 @@ Template.addCommentButton.onRendered(function(){
 });
 
 Template.post.onRendered(function(){
-    $('.collapse').collapse({
+    $('.collapsible').collapsible({
   //  accordion : false
 });
 });
@@ -38,6 +38,22 @@ Template.post.events({
 
     'click: #post-name': function(){
         $('#add-comment-btn').popover('hide');
+    },
+
+    "click #show-comments-btn": function (event, template) {
+        var checkIf = template.find("#comment-card").style.display;
+        if (checkIf === "none") {
+            template.$("#comment-card").slideDown();
+            template.$('#btn-icon').css('-ms-transform','rotate(90deg)');
+            template.$('#btn-icon').css('-webkit-transform','rotate(90deg)');
+            template.$('#btn-icon').css('transform','rotate(90deg)');
+        } else {
+            template.$("#comment-card").slideUp();
+            template.$('#btn-icon').css('-ms-transform','rotate(0deg)');
+            template.$('#btn-icon').css('-webkit-transform','rotate(0deg)');
+            template.$('#btn-icon').css('transform','rotate(0deg)');
+
+        }
     }
 });
 
@@ -52,3 +68,6 @@ function writeCommentForm(){
         '</form>'].join('');
     return(form);
 }
+
+
+

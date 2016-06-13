@@ -20,6 +20,7 @@
          url("../fonts/rosario/Rosario-Regular.woff2") format("woff2")
 }
 
+
 .website {
    /* background-color: black;
     color: white;*/
@@ -46,6 +47,10 @@ head {
 }
 .pull-right {
     float: right !important;
+}
+
+.material-icons.md-34 {
+    font-size: 34px;
 }
 
 .material-icons.md-18 {
@@ -140,15 +145,14 @@ head {
     right: 15px;
 }
 
-.collapsible-header.active i {
-    -ms-transform: rotate(180deg); /* IE 9 */
-    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
-    transform: rotate(180deg);
-}
-
 #comment-text, #comment-title {
     font-size: 10px;
 }
+
+#comment-text {
+    padding: 5px;
+}
+
 #remove-comment-btn {
     position: absolute;
     top: 3px;
@@ -157,5 +161,17 @@ head {
 
 #show-comments-btn {
     width: 100%;
+    text-transform: none;
+    text-align: left;
+    position: relative;
+}
+
+#btn-icon {
+    position: absolute;
+    right: 5px;
+}
+
+#comment-card {
+    height: 130px;
 }
 

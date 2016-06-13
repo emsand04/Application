@@ -43,14 +43,32 @@
 </template>
 
 <template name="showComments">
-   <!-- <button id="show-comments-btn" class="waves-effect waves-light btn" data-toggle="collapse" href="#content-comments" aria-expanded="false" aria-controls="content-comments">
-        <i id="icon-col" class="material-icons">expand_more</i>Visa kommentarer</button>
-    <div class="collapse" id="content-comments">
-        {{> postedCommentForm}}
-    </div> -->
+   <a id="show-comments-btn" class="waves-effect waves-light btn">
+        Visa kommentarer<i id="btn-icon" class="material-icons right-align">chevron_right</i>
+    </a>
 
+    <div id="content-comments">
 
+        <div id="comment-card" style="display: none" class="card blue-grey darken-1">
+            {{> removeCommentBtn}}
+            <div id="comment-content"  class="card-content white-text">
+                <span id="comment-title">2016-06-08</span>
+                <p id="comment-text">
+                    I am a very simple card. I am good at containing small bits of information.
+                    I am convenient because I require little markup to use effectively.
+                </p>
+            </div>
+        </div>
+   </div>
 
+</template>
+
+<template name="removeCommentBtn">
+    <a id="remove-comment-btn" href="#">
+        <i class="material-icons md-16 md-light">
+            clear
+        </i>
+    </a>
 </template>
 
 <template name="addCommentButton">
